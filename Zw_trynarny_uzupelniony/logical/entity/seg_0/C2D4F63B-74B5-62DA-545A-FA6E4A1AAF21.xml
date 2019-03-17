@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C2D4F63B-74B5-62DA-545A-FA6E4A1AAF21" name="GRUPY">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-12 17:39:23 UTC</createdTime>
+<ownerDesignName>Zw_trynarny_uzupelniony</ownerDesignName>
+<engineerTo>
+<item key="AB51E651-3E95-5124-46EB-36885DC4DAFE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="KOD_GRUPY" id="18508246-BC7F-A337-37C6-CBD811A30A0F">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-12 17:39:34 UTC</createdTime>
+<ownerDesignName>Zw_trynarny_uzupelniony</ownerDesignName>
+<engineerTo>
+<item key="AB51E651-3E95-5124-46EB-36885DC4DAFE" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OPIS" id="92CD2BEE-E0D9-574C-877C-429B25C02349">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-12 17:39:40 UTC</createdTime>
+<ownerDesignName>Zw_trynarny_uzupelniony</ownerDesignName>
+<engineerTo>
+<item key="AB51E651-3E95-5124-46EB-36885DC4DAFE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1123F75C-3D27-D839-A684-CE96BC7E1CA5" name="GRUPY PK">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-12 17:40:18 UTC</createdTime>
+<ownerDesignName>Zw_trynarny_uzupelniony</ownerDesignName>
+<engineerTo>
+<item key="AB51E651-3E95-5124-46EB-36885DC4DAFE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>18508246-BC7F-A337-37C6-CBD811A30A0F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

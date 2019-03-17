@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BA28A56F-5FB3-E1A4-E09F-18D29B9C8664" name="ZAJECIA_W_SALACH">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-12 17:40:23 UTC</createdTime>
+<ownerDesignName>Zw_trynarny_uzupelniony</ownerDesignName>
+<engineerTo>
+<item key="AB51E651-3E95-5124-46EB-36885DC4DAFE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="KOD_GRUPY" id="46642FD6-B63E-8FEF-14D8-627A96AF3A9D">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-12 17:41:22 UTC</createdTime>
+<generatorID>B0D3B554-F675-8C1E-49F8-3E46AFB31552</generatorID>
+<ownerDesignName>Zw_trynarny_uzupelniony</ownerDesignName>
+<engineerTo>
+<item key="AB51E651-3E95-5124-46EB-36885DC4DAFE" value="true"/>
+</engineerTo>
+<referedAttribute>18508246-BC7F-A337-37C6-CBD811A30A0F</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KOD_ZAJEC" id="C705E1C7-25CB-83E2-D0A4-AEFDE5DEC145">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-12 17:54:38 UTC</createdTime>
+<generatorID>FC499B3D-65BD-4066-746B-B7B85412CAF0</generatorID>
+<ownerDesignName>Zw_trynarny_uzupelniony</ownerDesignName>
+<engineerTo>
+<item key="AB51E651-3E95-5124-46EB-36885DC4DAFE" value="true"/>
+</engineerTo>
+<referedAttribute>C62BBADC-8C41-6AF1-4C6B-9E56CA48E856</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KOD_SALI" id="3AD94A6A-A0D5-0838-BDA4-205319A215B5">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-12 17:54:56 UTC</createdTime>
+<generatorID>8780CBE5-3E7D-DA25-92A7-5D4EEE5FAAB6</generatorID>
+<ownerDesignName>Zw_trynarny_uzupelniony</ownerDesignName>
+<engineerTo>
+<item key="AB51E651-3E95-5124-46EB-36885DC4DAFE" value="true"/>
+</engineerTo>
+<referedAttribute>96A8D455-B6FD-6C94-EF86-4A62F941D486</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TERMIN" id="9EEA4050-EF47-7B8D-7B3A-68E84D4849A5">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-12 17:56:26 UTC</createdTime>
+<ownerDesignName>Zw_trynarny_uzupelniony</ownerDesignName>
+<engineerTo>
+<item key="AB51E651-3E95-5124-46EB-36885DC4DAFE" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CDBFAC0F-C2CF-6761-CFA8-B728D032E093" name="ZAJECIA_W_SALACH PK">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-12 17:41:22 UTC</createdTime>
+<ownerDesignName>Zw_trynarny_uzupelniony</ownerDesignName>
+<engineerTo>
+<item key="AB51E651-3E95-5124-46EB-36885DC4DAFE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>46642FD6-B63E-8FEF-14D8-627A96AF3A9D</attributeRef>
+<attributeRef>3AD94A6A-A0D5-0838-BDA4-205319A215B5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Zw_trynarny_uzupelniony" id="CB20DAAB-7CFD-EE0A-41F1-A2FD6438915E" version="3.5">
+<createdBy>kozelski</createdBy>
+<createdTime>2019-03-12 17:38:54 UTC</createdTime>
+<ownerDesignName>Zw_trynarny_uzupelniony</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>CB20DAAB-7CFD-EE0A-41F1-A2FD6438915E</designId>
+</OSDM_Design>

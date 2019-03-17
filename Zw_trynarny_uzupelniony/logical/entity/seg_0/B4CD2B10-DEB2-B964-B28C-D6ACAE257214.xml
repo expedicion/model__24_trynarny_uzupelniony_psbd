@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B4CD2B10-DEB2-B964-B28C-D6ACAE257214" name="ZAJECIA">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-12 17:39:50 UTC</createdTime>
+<ownerDesignName>Zw_trynarny_uzupelniony</ownerDesignName>
+<engineerTo>
+<item key="AB51E651-3E95-5124-46EB-36885DC4DAFE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="KOD_ZAJEC" id="C62BBADC-8C41-6AF1-4C6B-9E56CA48E856">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-12 17:39:56 UTC</createdTime>
+<ownerDesignName>Zw_trynarny_uzupelniony</ownerDesignName>
+<engineerTo>
+<item key="AB51E651-3E95-5124-46EB-36885DC4DAFE" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NAZWA" id="5242324E-497E-7DC0-A4D2-F48F99A19871">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-12 17:40:03 UTC</createdTime>
+<ownerDesignName>Zw_trynarny_uzupelniony</ownerDesignName>
+<engineerTo>
+<item key="AB51E651-3E95-5124-46EB-36885DC4DAFE" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OPIS" id="86A9C419-04F0-D9FF-2BA2-45FCC84B8957">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-12 17:40:10 UTC</createdTime>
+<ownerDesignName>Zw_trynarny_uzupelniony</ownerDesignName>
+<engineerTo>
+<item key="AB51E651-3E95-5124-46EB-36885DC4DAFE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D42EBF1F-3AF7-BE2E-F0B7-FCEFE368D726" name="ZAJECIA PK">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-12 17:40:01 UTC</createdTime>
+<ownerDesignName>Zw_trynarny_uzupelniony</ownerDesignName>
+<engineerTo>
+<item key="AB51E651-3E95-5124-46EB-36885DC4DAFE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C62BBADC-8C41-6AF1-4C6B-9E56CA48E856</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
